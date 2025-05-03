@@ -74,7 +74,7 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
   - `Total Emissions = SUMX(FreightData, SHIPWT * EmissionFactor)`
   - `Average Emissions = AVERAGEX(FreightData, SHIPWT * EmissionFactor)`
 
-## Modeling
+## EDA
 
 - **Approach**: Employed descriptive analytics via Exploratory Data Analysis (EDA) in Power BI.
 - **Enhancements**: Mapped codes for interpretability:
@@ -106,8 +106,6 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 5. **Utilization (Q5)**: Truck overburdened; Mail underutilized (<1%).
 6. **Commodities (Q6)**: Commodity 27 drives 60% volume, 65% charges.
 7. **Value (Q7)**: Pipeline transports highest-value goods; Air fits time-sensitive freight.
-
-## Deployment
 
 ### Conclusions
 - Pipeline excels in volume and value but significantly impacts emissions.
@@ -147,4 +145,9 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 
 ## Tools Used
 - **Power BI Desktop**: Data integration, cleaning, visualization, and EDA.
-- **DAX Studio**: Metric creation and validation.
+- **DAX Studio**: Combining consolidated data into a CSV file.
+
+## Contact
+For questions or collaboration, reach out via:
+- **Email**: (manoelvuu@gmail.com)
+- **Medium**: Read the full story at (https://medium.com/@manoelvuu/transborder-freight-data-analysis-d9ec94a6c568)
