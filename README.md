@@ -96,7 +96,8 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 4. **Economic Disruptions**:
    - **By Trade Type**: Imports outpace exports (55% vs. 45%)
 
-### Insights (Per Analytical Question) <img width="578" alt="TransBorder Freight Analysis" src="https://github.com/user-attachments/assets/2d96f15a-fac6-4260-98d7-7572f4a4264d" />
+### Insights (Per Analytical Question) <img width="578" alt="TransBorder Freight Analysis" src="https://github.com/user-attachments/assets/6baed55d-b1c9-4065-96ca-a4f328df0f49" />
+
 
 1. **Trends (Q1)**: Pipeline peaks in 2021–2022, reflecting sustained demand.
 2. **Congestion (Q2)**: Texas and Anacortes face high Truck/Pipeline volumes.
