@@ -1,6 +1,7 @@
 # TransBorder Freight Data Analysis
 
-![Truck crossing a border1](https://github.com/user-attachments/assets/5d72d591-9888-4784-827a-0c412e11c811)
+![Truck crossing Border3](https://github.com/user-attachments/assets/acf7b86b-6fcf-414c-ad24-f806eb0da7fc)
+
 *Freight truck at a key U.S.-Canada border hub.*
 
 ## Overview
