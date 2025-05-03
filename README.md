@@ -1,7 +1,7 @@
 # TransBorder Freight Data Analysis
 
-![Header Image](assets/laredo-truck-crossing.jpg)  
-*Freight trucks at Laredo’s World Trade Bridge, a key U.S.-Mexico border hub.*
+![Truck crossing a border1](https://github.com/user-attachments/assets/5d72d591-9888-4784-827a-0c412e11c811)
+*Freight truck at a key U.S.-Canada border hub.*
 
 ## Overview
 
@@ -96,8 +96,7 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 4. **Economic Disruptions**:
    - **By Trade Type**: Imports outpace exports (55% vs. 45%)
 
-### Insights (Per Analytical Question) <img width="578" alt="TransBorder Freight Analysis" src="https://github.com/user-attachments/assets/6baed55d-b1c9-4065-96ca-a4f328df0f49" />
-
+### Insights (Per Analytical Question) ![TransBorder Freight Analysis](https://github.com/user-attachments/assets/6baed55d-b1c9-4065-96ca-a4f328df0f49)
 
 1. **Trends (Q1)**: Pipeline peaks in 2021–2022, reflecting sustained demand.
 2. **Congestion (Q2)**: Texas and Anacortes face high Truck/Pipeline volumes.
