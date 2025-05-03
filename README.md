@@ -149,5 +149,5 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 
 ## Contact
 For questions or collaboration, reach out via:
-- **Email**: (manoelvuu@gmail.com)
+- **Email**: [manoelvuu@gmail.com](mailto:manoelvuu@gmail.com)
 - **Medium**: Read the full story at [Unpacking Cross-Border Freight](https://medium.com/@manoelvuu/transborder-freight-data-analysis-d9ec94a6c568)
