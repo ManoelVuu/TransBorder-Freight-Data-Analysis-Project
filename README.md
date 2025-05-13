@@ -144,7 +144,7 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 - Safety data unavailable.
 
 ## Tools Used
-- **Power BI Desktop**: Data Integration, Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization, DAX Programming, Documentation, Problem-Solving
+- **Power BI Desktop**: Data Integration, Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization, DAX Programming, Problem-Solving
 - **DAX Studio**: Combining consolidated data into a CSV file.
 
 ## Contact
