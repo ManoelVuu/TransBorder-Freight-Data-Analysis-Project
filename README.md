@@ -128,6 +128,9 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 - Partial data for 2020 and 2024 (e.g., 9 months in 2020) may miss seasonal trends.
 - Lack of safety data restricts risk analysis.
 
+### Summary
+Vessel (33%), Pipeline (30%), Truck (20%), and Rail (16%) lead trans-border freight, with Texas as a key hub (14% volume). Commodity 27 (Mineral Fuels) accounts for 56% of volume and 37% of costs, but high Truck emissions (53%) pose environmental challenges. By adopting cleaner technologies, shifting freight to Rail, expanding Texas infrastructure, and leveraging Mail, stakeholders can improve efficiency, reduce emissions, and enhance resilience in trans-border freight operations.
+
 ## Tools Used
 - **Power BI Desktop**: Data Integration, Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization, DAX Programming, Problem-Solving
 - **DAX Studio**: Combining consolidated data into a CSV file.
