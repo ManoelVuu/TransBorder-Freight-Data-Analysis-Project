@@ -83,9 +83,9 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 - **Rationale**: Descriptive focus suits exploratory goals; predictive modeling deferred due to dataset scope.
 
 ## Evaluation
-
 ### EDA Findings
-### EDA Findings ![EDA TransBorder Freight Analysis](https://github.com/user-attachments/assets/b87db774-811b-4254-a794-50e597bdd40c)
+
+<img width="1156" height="644" alt="EDA TransBorder Freight Analysis" src="https://github.com/user-attachments/assets/91ddd64f-182c-4f0c-86a8-969790fee659" />
 
 - **By Mode:** Vessel leads with 33% of shipping weight (SHIPWT), followed by Pipeline at 30%.
 - **Over Time:** Freight volume peaked in 2021–2022 at 15 trillion kg, reflecting economic recovery.
@@ -93,7 +93,9 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 - **By Commodity:** Commodity 27 (Mineral Fuels) drives 56% of freight volume.
 - **By Trade Type:** Imports dominate at 86%, compared to exports at 14%.
 
-### Insights (Per Analytical Question) ![TransBorder Freight Analysis](https://github.com/user-attachments/assets/6baed55d-b1c9-4065-96ca-a4f328df0f49)
+### Insights (Per Analytical Question) 
+
+<img width="1151" height="649" alt="TransBorder Freight Analysis" src="https://github.com/user-attachments/assets/cbb9bafd-c9f6-4ff3-b96a-ce9fff6176a0" />
 
 - **Trends (Q1):** Freight volume peaked in 2021–2022, with Vessel leading at 33% of shipping weight.
 - **Congestion (Q2):** Texas handles 14% of U.S. freight volume, primarily driven by Vessel.
