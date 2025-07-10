@@ -63,9 +63,9 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 - Saved cleaned dataset as CSV.
 
 ### Metrics (DAX)
-- `Average Freight Charges = AVERAGE(FREIGHT_CHARGES)`
-- `Average Shipping Weight = AVERAGE(SHIPWT)`
-- `Average Value of Goods = AVERAGE(VALUE)`
+- Sum Freight Charges = SUM(FREIGHT_CHARGES)
+- Sum Shipping Weight = SUM(SHIPWT)
+- Sum Value of Goods = SUM(VALUE)
 
 ### Emission Factors (kg CO₂/tkm)
 - Sourced from BTS and EPA benchmarks:
@@ -74,7 +74,7 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
   - `Total Emissions = SUMX(FreightData, SHIPWT * EmissionFactor)`
   - `Average Emissions = AVERAGEX(FreightData, SHIPWT * EmissionFactor)`
 
-## EDA
+## Modelling
 
 - **Approach**: Employed descriptive analytics via Exploratory Data Analysis (EDA) in Power BI.
 - **Enhancements**: Mapped codes for interpretability:
@@ -84,64 +84,47 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 
 ## Evaluation
 
+### EDA Findings
 ### EDA Findings ![EDA TransBorder Freight Analysis](https://github.com/user-attachments/assets/b87db774-811b-4254-a794-50e597bdd40c)
 
-1. **Freight Movement Patterns**:
-   - **By Mode**: Pipeline leads (42% of `SHIPWT`)
-   - **Over Time**: Peaks in 2021–2022
-   - **By Region**: Texas (TX) and Anacortes, WA (Port 3010) dominate (35% and 20% of volume)
-2. **Inefficiencies**:
-   - **Charges by Mode**: Pipeline averages highest
-3. **Environmental Impact**:
-   - **By Commodity**: Commodity 27 (Mineral Fuels) accounts for 60% of volume
-4. **Economic Disruptions**:
-   - **By Trade Type**: Imports outpace exports (55% vs. 45%)
+- **By Mode:** Vessel leads with 33% of shipping weight (SHIPWT), followed by Pipeline at 30%.
+- **Over Time:** Freight volume peaked in 2021–2022 at 15 trillion kg, reflecting economic recovery.
+- **Charges by Mode:** Trucks lead with $0.66 trillion USD in freight charges.
+- **By Commodity:** Commodity 27 (Mineral Fuels) drives 56% of freight volume.
+- **By Trade Type:** Imports dominate at 86%, compared to exports at 14%.
 
 ### Insights (Per Analytical Question) ![TransBorder Freight Analysis](https://github.com/user-attachments/assets/6baed55d-b1c9-4065-96ca-a4f328df0f49)
 
-1. **Trends (Q1)**: Pipeline peaks in 2021–2022, reflecting sustained demand.
-2. **Congestion (Q2)**: Texas and Anacortes face high Truck/Pipeline volumes.
-3. **Emissions (Q3)**: Pipeline (55% of total emissions), Truck (30%)
-4. **Disruptions (Q4)**: 2021–2022 spikes align with post-pandemic recovery.
-5. **Utilization (Q5)**: Truck overburdened; Mail underutilized (<1%).
-6. **Commodities (Q6)**: Commodity 27 drives 60% volume, 65% charges.
-7. **Value (Q7)**: Pipeline transports highest-value goods; Air fits time-sensitive freight.
+- **Trends (Q1):** Freight volume peaked in 2021–2022, with Vessel leading at 33% of shipping weight.
+- **Congestion (Q2):** Texas handles 14% of U.S. freight volume, primarily driven by Vessel.
+- **Emissions (Q3):** Trucks account for 53% of CO2 emissions, followed by Rail (21%), Pipeline (16%), and Vessel (9%).
+- **Disruptions (Q4):** Volume spikes in 2021–2022 align with post-pandemic recovery.
+- **Utilization (Q5):** Trucks handle 65% of freight movements, while Mail is underused (<1%).
+- **Commodities (Q6):** Commodity 27 (Mineral Fuels) contributes 56% of volume and 37% of charges.
+- **Value (Q7):** Trucks carry 62% of goods’ value, based on freight charges and value in USD.
 
-### Conclusions
-- Pipeline excels in volume and value but significantly impacts emissions.
-- Truck overuse strains routes and environment.
-- Texas and Anacortes are congested hubs.
-- Commodity 27 shapes freight economics.
-- 2021–2022 peaks highlight recovery effects.
-- Mail’s low use suggests untapped potential.
+## Deployment
+### Conclusion
+- Vessel moves the most freight volume (33%), but Trucks dominate emissions (53%) and economic value (62%).
+- High Truck usage strains infrastructure and increases environmental impact.
+- Texas, handling 14% of volume, faces congestion, largely due to Vessel traffic.
+- Commodity 27 (Mineral Fuels) drives over half of freight volume (56%) and a significant share of costs (37%).
+- The 2021–2022 volume surge reflects post-pandemic demand.
+- Mail’s minimal use (<1%) offers opportunities for optimization.
 
 ### Recommendations
-1. **Optimize Pipeline Operations**:
-   - Shift to cleaner tech (e.g., electric pumps) or Rail for energy freight.
-   - *Benefit*: 20% emission reduction.
-2. **Reduce Truck Reliance**:
-   - Divert 20% Truck freight to Rail.
-   - *Benefit*: 15% less congestion/emissions.
-3. **Address Congestion**:
-   - Expand Texas/Anacortes infrastructure.
-   - *Benefit*: 10% efficiency gain.
-4. **Diversify Commodities**:
-   - Promote non-energy trade.
-   - *Benefit*: Mitigates energy market risks.
-5. **Leverage Mail**:
-   - Target small, high-value shipments.
-   - *Benefit*: Balances mode utilization.
-6. **Monitor Trends**:
-   - Track disruptions in real-time.
-   - *Benefit*: Enhances adaptability.
-7. **Boost Sustainability**:
-   - Implement carbon offsets or efficiency upgrades.
-   - *Benefit*: 10% emission cut.
+- **Adopt Cleaner Truck Technologies:** Encourage the adoption of electric and hybrid trucks to significantly reduce greenhouse gas emissions and align with evolving environmental standards.
+- **Divert Truck Freight to Rail:** Shift a portion of long-haul truck freight to rail to lower emissions and alleviate roadway congestion.
+- **Expand Infrastructure in TX:** With over 14% of U.S. freight volume flowing through Texas, strategic investment in ports and highways can ease congestion and boost efficiency.
+- **Diversify Commodity Types:** Reduce overreliance on Commodity 27 (Mineral Fuels), which dominates freight volume, by promoting trade in diversified, non-energy goods to increase economic stability.
+- **Leverage Mail and Air for High-Value Freight:** Optimize underused modes like Mail for small, high-value goods and utilize Air for time-sensitive shipments, improving balance and responsiveness in mode utilization.
+- **Implement Real-Time Freight Monitoring:** Adopt live data systems to monitor freight flows, detect bottlenecks, and respond proactively to disruptions enhancing operational resilience.
+- **Promote Sustainable Logistics Practices:** Introduce carbon offset programs and system-wide efficiency upgrades with a target of reducing overall freight-related emissions by at least 10%.
 
 ### Limitations
-- Emission factors assume uniformity across regions/years.
-- Partial data (e.g., 2020: 9 months) may obscure seasonality.
-- Safety data unavailable.
+- Emission factors may vary by region and year, limiting precision.
+- Partial data for 2020 and 2024 (e.g., 9 months in 2020) may miss seasonal trends.
+- Lack of safety data restricts risk analysis.
 
 ## Tools Used
 - **Power BI Desktop**: Data Integration, Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization, DAX Programming, Problem-Solving
