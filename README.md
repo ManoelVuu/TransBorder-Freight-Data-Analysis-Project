@@ -100,7 +100,7 @@ Analyze cross-border freight transportation data (2020–2024) from the Bureau o
 - **Trends (Q1):** Freight volume peaked in 2021–2022, with Vessel leading at 33% of shipping weight.
 - **Congestion (Q2):** Texas handles 14% of U.S. freight volume, primarily driven by Vessel.
 - **Emissions (Q3):** Trucks account for 53% of CO2 emissions, followed by Rail (21%), Pipeline (16%), and Vessel (9%).
-- **Disruptions (Q4):** Volume spikes in 2021–2022 align with post-pandemic recovery.
+- **Disruptions (Q4):** Freight volumes spiked in 2021–2022 (15 trillion kg) due to post-pandemic recovery, increasing demand for energy goods (Commodity 27, 56% volume). However, this surge strained Texas (14% volume) and Truck routes (65% utilization), reducing efficiency through congestion and higher costs.
 - **Utilization (Q5):** Trucks handle 65% of freight movements, while Mail is underused (<1%).
 - **Commodities (Q6):** Commodity 27 (Mineral Fuels) contributes 56% of volume and 37% of charges.
 - **Value (Q7):** Trucks carry 62% of goods’ value, based on freight charges and value in USD.
